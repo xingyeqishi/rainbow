@@ -2,9 +2,9 @@ var QcloudSms = require("qcloudsms_js");
 // 短信应用 SDK AppID
 var appid = 1400235725;  // SDK AppID 以1400开头
 // 短信应用 SDK AppKey
-var appkey = "f2c4148b4a4b73c8e581474dc5188156";
+var appkey = "";
 // 需要发送短信的手机号码
-var phoneNumbers = ["13436837359", "18610060224"];
+var phoneNumbers = ["13436837389", "18610060225"];
 
 // 短信模板 ID，需要在短信控制台中申请
 var templateId = 7839;  // NOTE: 这里的模板ID`7839`只是示例，真实的模板 ID 需要在短信控制台中申请
